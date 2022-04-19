@@ -1,0 +1,31 @@
+<ion-content class="bg_img">
+  <ion-slides class="et_fullscreen_slider .et_pb_container" mode="ios" pager="ios" #slider loop="true" pager="false"
+    [options]="slideOptions" (ionSlideTouchEnd)="slideChanged()">
+    <ion-slide>
+      <div style="margin-top: 40%;">
+        <h1 class="text-white pb-12">Free Insurance</h1>
+        <button class="bg-white hover:bg-blue-700 text-black py-2 px-4 rounded w-full" routerLink="/login">
+          Get Started
+        </button>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div style="margin-top: 40%;">
+        <h1 class="text-white pb-12">Monthly Pass</h1>
+        <button class="bg-white hover:bg-blue-700 text-black py-2 px-4 rounded w-full" routerLink="/login">
+          Get Started
+        </button>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div style="margin-top: 40%;">
+        <h1 class="text-white pb-12">Easy Ride</h1>
+        <button class="bg-white hover:bg-blue-700 text-black py-2 px-4 rounded w-full" routerLink="/login">
+          Get Started
+        </button>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

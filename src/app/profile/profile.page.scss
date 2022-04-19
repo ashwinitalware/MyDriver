@@ -1,0 +1,29 @@
+.footer_div {
+  background: linear-gradient(90deg, #db0707, #ff0000, #db0707);
+}
+
+.bg {
+  --background: url("/assets/red_blue.png") 0 0/100% 100% no-repeat;
+}
+
+.thumb {
+  width: 120px;
+  height: 122px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb img {
+  height: 100%;
+  width: auto;
+  border: 2px solid #fff;
+}

@@ -1,0 +1,79 @@
+<ion-content class="bg_img">
+  <div class="p-8 pl-15 pr-15" align="center" style="margin-top: 20%;">
+    <img class="heartbeat" src="assets/Mytatoz Logo Png.png" width="40%" height="40%" alt="">
+  </div>
+
+  <div align="center" class="pt-10">
+    <ion-label class="p-2 bg-red-600 rounded-md text-white">Date : 01 Jan 2021</ion-label>
+  </div>
+
+  <ion-row class="p-4">
+    <ion-col size="6">
+      <div class="pl-2">
+        <label
+          class="w-30 pl-3 pr-3 flex flex-col items-center p-1 border-b-2 border-gray-400 text-blue rounded-lg  tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-black">
+          <input
+            class="border-b-2 border-gray-300 rounded w-full text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="number" placeholder="">
+          <span class="mt-2 text-xs m-1 leading-normal"><b>Meter Reading</b></span>
+        </label>
+      </div>
+    </ion-col>
+    <ion-col size="6">
+      <div class="pl-2">
+        <label
+          class="w-30 flex flex-col items-center p-1  border-b-2 border-gray-400 text-blue rounded-lg  tracking-wide uppercase border border-blue cursor-pointer hover:bg-blue hover:text-black">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-red-600" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z"
+              clip-rule="evenodd" />
+          </svg>
+          <span class="mt-2 text-xs m-1 leading-normal pt-1"><b>Upload Photo</b></span>
+          <input type='file' class="hidden" />
+        </label>
+      </div>
+    </ion-col>
+  </ion-row>
+
+
+
+  <!-- <div class="col-3 input-effect" style="margin-top: 5%;">
+    <input class="effect-19" type="text" placeholder="">
+    <label>Meter Reading</label>
+    <span class="focus-border">
+      <i></i>
+    </span>
+  </div>
+
+  <div class="col-3 input-effect">
+    <input type="file" multiple class="form-control " placeholder="&nbsp;&nbsp;&nbsp;&nbsp; Upload Photo">
+    <label for="file-upload" class="custom-file-upload"> Upload Photo</label>
+  </div>
+
+
+
+  <div class="col-3 input-effect">
+    <input class="effect-19" type="date" placeholder="&nbsp;&nbsp;&nbsp;&nbsp; Current Date">
+    <label>Current Date</label>
+    <span class="focus-border">
+      <i></i>
+    </span>
+  </div> -->
+
+  <div class="pl-7 pr-7 " style="margin-top: 5%;">
+    <ion-button expand="block" color="danger" routerLink="/requests">
+      Submit &nbsp; <ion-icon class="shake-horizontal ml-3" color="light" slot="end" name="arrow-forward-outline">
+      </ion-icon>
+    </ion-button>
+  </div>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="primary">
+      <ion-icon name="location" ios="chevron-back-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-label color="primary"><b>ContactUs</b></ion-label>
+    </ion-fab-list>
+  </ion-fab>
+
+</ion-content>

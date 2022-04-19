@@ -1,0 +1,132 @@
+<div class="flex justify-between bg-red-600 p-4">
+  <div routerLink="/requests">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600 bg-white rounded-lg" viewBox="0 0 20 20"
+      fill="currentColor">
+      <path fill-rule="evenodd"
+        d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
+        clip-rule="evenodd" />
+    </svg>
+  </div>
+  <div>
+    <ion-title class="text-white text-center  mr-8">Payment</ion-title>
+  </div>
+  <div>
+  </div>
+</div>
+
+<ion-content>
+
+  <ion-card class="bg1">
+    <ion-row class="p-4">
+      <ion-col size="6" align="center">
+        <ion-label align="center" class="text-white">Total Meter Reading<br>
+          <span class="text-xl"> 12</span></ion-label>
+      </ion-col>
+      <ion-col size="2" class="border-l-2 border-white"></ion-col>
+      <ion-col size="4" align="center">
+        <ion-label align="center" class="text-white">Pay Amount<br>
+          <span class="text-xl">3000</span></ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+
+  <!-- ==============
+            1nd Card
+         ==============  -->
+  <ion-card class="bg-white">
+    <div class="flex justify-between" align="center">
+      <div class="bg-blue-800 rounded-br-lg  h-6">
+        <p class="text-white text-xs p-1">Date: 01 Jan 2021</p>
+      </div>
+    </div>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Name :</span> Dinesh Kumar
+        </ion-label>
+      </ion-col>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Location : </span> Amravati</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Total Meter Reading :</span> 12
+        </ion-label>
+      </ion-col>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Time : </span> 10:00 AM</ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+
+  <!-- ==============
+            2nd Card
+         ==============  -->
+  <ion-card class="bg-white">
+    <div class="flex justify-between" align="center">
+      <div class="bg-blue-800 rounded-br-lg  h-6">
+        <p class="text-white text-xs p-1">Date: 02 Jan 2021</p>
+      </div>
+    </div>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Name :</span> Dinesh Kumar
+        </ion-label>
+      </ion-col>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Location : </span> Amravati</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Total Meter Reading :</span> 12
+        </ion-label>
+      </ion-col>
+      <ion-col size="6">
+        <ion-label class="text-xs"><span class="text-black font-bold">Time : </span> 12:00 AM</ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+
+
+</ion-content>
+
+
+
+<div class="flex justify-between bg-white">
+  <div>
+    <ion-tab-button tab="music" routerLink="/requests">
+      <ion-label><b>Home</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500; margin-top: 2;" color="danger" name="home"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div>
+    <ion-tab-button tab="games" routerLink="/history">
+      <ion-label><b>History</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="newspaper"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div>
+    <ion-tab-button tab="games" routerLink="/payment">
+      <ion-label><b>Payment</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="reader"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div>
+    <ion-tab-button tab="games" routerLink="/profile">
+      <ion-label><b>Profile</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="person"></ion-icon>
+
+    </ion-tab-button>
+  </div>
+</div>

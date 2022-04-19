@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/requests"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Notification</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card class=" bg-white border-l-2 border-red-500 p-4">
+    <ion-label>Booking #12343 has been success...</ion-label>
+  </ion-card>
+
+  <ion-card class=" bg-white border-l-2 border-blue-500 p-4 pt-3">
+    <ion-label>Invite friends - Get 3 Coupons each ! </ion-label>
+  </ion-card>
+
+  <ion-card class=" bg-white border-l-2 border-green-500 p-4 pt-3">
+    <ion-label>Thank You !! Your transaction is completed.</ion-label>
+  </ion-card>
+
+  <ion-card class=" bg-white border-l-2 border-yellow-500 p-4 pt-3">
+    <ion-label>Booking #12343 has been success...</ion-label>
+  </ion-card>
+
+  <ion-card class=" bg-white border-l-2 border-pink-500 p-4 pt-3">
+    <ion-label>Invite friends - Get 3 Coupons each ! </ion-label>
+  </ion-card>
+
+  <ion-card class=" bg-white border-l-2 border-gray-500 p-4 pt-3">
+    <ion-label>Thank You !! Your transaction is completed.</ion-label>
+  </ion-card>
+
+
+
+</ion-content>
+
+<div class="flex justify-between rounded-tr-3xl  rounded-tl-3xl  shadow-2xl footer_div">
+  <div class="pl-4">
+    <ion-tab-button tab="music" routerLink="/requests">
+      <ion-label><b>Home</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500; margin-top: 2;" name="home" color="light"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+
+  <div>
+    <ion-tab-button tab="games" routerLink="/notification">
+      <ion-label><b>Notification</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="light" name="notifications"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div class="pr-4">
+    <ion-tab-button tab="games" routerLink="/profile">
+      <ion-label><b>Profile</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="light" name="person"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+</div>

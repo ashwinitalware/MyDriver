@@ -1,0 +1,7 @@
+{
+  "name": "MyDriver",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
